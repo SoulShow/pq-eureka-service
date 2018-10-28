@@ -12,6 +12,8 @@ release.*
 
 /target
 
+.DS_Store
+
 /bin
 
 .springBeans
