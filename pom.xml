@@ -6,7 +6,7 @@
 	<groupId>com.pq</groupId>
 	<artifactId>pq-eureka-service</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>pq-eureka-service</name>
 	<description>eureka project for Spring cloud eureka</description>
