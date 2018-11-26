@@ -8,6 +8,6 @@ nohup java -jar -Xms64m -Xmx128m pq-eureka-service.jar  > /export/data/logs/pq-e
 
 nohup java -jar -Xms64m -Xmx128m pq-user-service-1.0.0-SNAPSHOT.jar  > /export/data/logs/pq-user-service.file  2>&1 &
 
-nohup java -jar -Xms64m -Xmx128m pq-api-1.0.0-SNAPSHOT.jar  > /export/data/logs/pq-api.file  2>&1 &
+nohup java -jar -Xms64m -Xmx128m pq-agency-service-1.0.0-SNAPSHOT.jar  > /export/data/logs/pq-agency-service.file  2>&1 &
 
-nohup java -jar -Xms64m -Xmx128m pq-agency-service-1.0.0-SNAPSHOT.jar  > /export/data/logs/pq-api.file  2>&1 &
+nohup java -jar -Xms64m -Xmx128m pq-api-1.0.0-SNAPSHOT.jar  > /export/data/logs/pq-api.file  2>&1 &
