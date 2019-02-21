@@ -1,0 +1,42 @@
+#---
+spring:
+  application:
+    name: spring-cloud-eureka
+server:
+  port: 9001
+eureka:
+  instance:
+    hostname: eureka-service
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-service:8001/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+#---
+#spring:
+#  application:
+#    name: spring-cloud-eureka2
+#server:
+#  port: 8001
+#eureka:
+#  instance:
+#    hostname: eureka-service2
+#  client:
+#    serviceUrl:
+#      defaultZone: http://eureka-service1:8000/eureka/,http://eureka-service2:8001/eureka/,http://eureka-service3:8002/eureka/
+#    register-with-eureka: false
+#    fetch-registry: false
+#---
+#spring:
+#  application:
+#    name: spring-cloud-eureka3
+#server:
+#  port: 8002
+#eureka:
+#  instance:
+#    hostname: eureka-service3
+#  client:
+#    serviceUrl:
+#      defaultZone: http://eureka-service1:8000/eureka/,http://eureka-service2:8001/eureka/,http://eureka-service3:8002/eureka/
+#    register-with-eureka: false
+#    fetch-registry: false
